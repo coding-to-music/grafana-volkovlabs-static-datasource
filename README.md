@@ -1,3 +1,35 @@
+# grafana-volkovlabs-static-datasource
+
+# 🚀 Static Data Source for @grafana. 🚀
+
+
+https://github.com/coding-to-music/grafana-volkovlabs-static-datasource
+
+From / By https://github.com/VolkovLabs/volkovlabs-image-panel
+
+
+## Environment variables:
+
+```java
+
+```
+
+## user interfaces:
+
+- Grafana http://localhost:3000
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/grafana-volkovlabs-static-datasource.git
+git push -u origin main
+```
+
 # Static Data Source for Grafana
 
 ![Screenshot](https://github.com/volkovlabs/volkovlabs-static-datasource/raw/main/src/img/dark.png)
