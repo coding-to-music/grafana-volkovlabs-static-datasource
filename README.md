@@ -5,7 +5,7 @@
 
 https://github.com/coding-to-music/grafana-volkovlabs-static-datasource
 
-From / By https://github.com/VolkovLabs/volkovlabs-image-panel
+From / By https://github.com/volkovlabs/volkovlabs-static-datasource
 
 
 ## Environment variables:
