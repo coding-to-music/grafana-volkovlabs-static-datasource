@@ -30,6 +30,38 @@ git remote add origin git@github.com:coding-to-music/grafana-volkovlabs-static-d
 git push -u origin main
 ```
 
+## Error message: Panel plugin not found: NodeGraph
+
+https://grafana.com/grafana/plugins/hamedkarbasi93-nodegraphapi-datasource/
+
+Installation via grafana-cli tool
+
+Use the grafana-cli tool to install Node Graph API from the commandline:
+
+```
+grafana-cli plugins install hamedkarbasi93-nodegraphapi-datasource
+
+docker-compose exec grafana grafana-cli plugins install hamedkarbasi93-nodegraphapi-datasource
+```
+
+To list installed plugins, run the following command:
+
+```
+docker-compose exec grafana grafana-cli plugins ls
+```
+
+Output
+
+```
+installed plugins:
+hamedkarbasi93-nodegraphapi-datasource @ 1.0.1
+marcusolsson-dynamictext-panel @ 3.1.0
+marcusolsson-static-datasource @ 2.2.0
+volkovlabs-app @ 2.3.0
+volkovlabs-image-panel @ 3.5.0
+```
+
+
 # Static Data Source for Grafana
 
 ![Screenshot](https://github.com/volkovlabs/volkovlabs-static-datasource/raw/main/src/img/dark.png)
